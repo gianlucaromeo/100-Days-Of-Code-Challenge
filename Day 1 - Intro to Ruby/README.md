@@ -45,3 +45,4 @@ puts squares  # Outputs: [1, 4, 9, 16, 25]
 5. Exceptions Handling
 6. File I/O
 7. Regular Expressions
+8. Cool features to work with arrays
