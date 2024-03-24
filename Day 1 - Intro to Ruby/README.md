@@ -44,5 +44,4 @@ puts squares  # Outputs: [1, 4, 9, 16, 25]
 4. Modules and Mixins
 5. Exceptions Handling
 6. File I/O
-7. Symbols
-8. Regular Expressions
+7. Regular Expressions
