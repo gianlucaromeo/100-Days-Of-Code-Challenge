@@ -1,9 +1,12 @@
 # Day 1 - Intro to Ruby
 
-:tw-2705: Setup my 100-Days-Of-Code-Challenge repository
-:tw-2705: Setup [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)
-:tw-2705: Explore Ruby
-:tw-2705: Commit common Ruby features
+✔️ Setup my `100-Days-Of-Code-Challenge` repository
+<br>
+✔️ Setup [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)
+<br>
+✔️ Explore Ruby
+<br>
+✔️ Commit common Ruby features
 
 # Table of contents
 1. [What is Ruby?](#1-what-is-ruby)
