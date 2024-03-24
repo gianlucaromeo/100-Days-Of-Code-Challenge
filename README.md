@@ -1,12 +1,12 @@
 # 100 Days Of Code Challenge
 
-I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHub, X, and Threads using the **#100DaysOfCode** hashtag.
+I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHub, [my X account](https://twitter.com/__gianluc4), and [my Thread account](https://www.threads.net/__gianluc4), using the **#100DaysOfCode** hashtag.
 
 &nbsp;
 📆 **Mar 24** to **Jul 02** (2024).
 
 &nbsp;
-💻 [The challenge](https://www.freecodecamp.org/news/join-the-100daysofcode-556ddb4579e4/)
+💻 Read more about [this challenge](https://www.freecodecamp.org/news/join-the-100daysofcode-556ddb4579e4/)!
 
 &nbsp;
 # 🎯 Overall goals
@@ -19,7 +19,7 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 
 &nbsp;
 # ☑️ Completed
-## Day 1 - Setup and Intro to Ruby
+## [Day 1 - Setup and Intro to Ruby](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Day%201%20-%20Intro%20to%20Ruby)
 ✔️ Setup my `100-Days-Of-Code-Challenge` repository
 <br>
 ✔️ Setup [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)
