@@ -9,7 +9,7 @@ On day 1, I explored Ruby using the official guide, Gemini, and GitHub Copilot.
 ## 1. What is Ruby
 Ruby is a high-level, interpreted programming language that was designed and developed by Yukihiro "Matz" Matsumoto in the mid-1990s. It is a dynamic, open source language with a focus on simplicity and productivity. Ruby has an elegant syntax that is natural to read and easy to write. It supports multiple programming paradigms, including procedural, object-oriented, and functional programming. Ruby is also known for its use in web development, particularly with the Ruby on Rails framework.
 
-Here's a short Ruby code snippet that demonstrates several features of the language, including its expressive syntax, support for object-oriented programming, and use of blocks.
+Here's a short Ruby code snippet.
 
 ```
 # Define a class with an initializer, attribute accessor, and a method
@@ -38,11 +38,11 @@ puts squares  # Outputs: [1, 4, 9, 16, 25]
 ```
 
 ## 2. Syntax and features of Ruby
-1. Syntax Basics and Control Structures
-2. Methods, Blocks, Procs
-3. Classes and Objects
-4. Modules and Mixins
-5. Exceptions Handling
-6. File I/O 
-7. Regular Expressions
-8. Cool features to work with arrays
+1. `1-syntax-basics-and-control-structures.rb` Syntax Basics and Control Structures
+2. `2-methods-procs-blocks.rb` Methods, Blocks, Procs
+3. `3-classes.rb` Classes and Objects
+4. `4-modules-and-mixins.rb` Modules and Mixins
+5. `5-exceptions-handling.rb` Exceptions Handling
+6. `6-files.rb` Files I/O 
+7. `7-regex.rb` Regular Expressions
+8. `8-arrays-cool-features` Cool features to work with arrays
