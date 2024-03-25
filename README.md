@@ -28,14 +28,21 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Commit common Ruby features
 
-&nbsp;
-# 👀 Upcoming
-## Day 2 - Rails API from 0
-- Start learning Rails API
-- Share what I learned
+## Day 2 - Rails API - OAuth 2.0 - Pt. 1
+✔️ What is OAuth 2.0
+<br>
+✔️ What is Rails API
+<br>
+✔️ Useful commands to build APIs in Rails
+<br>
+✔️ Registration 
+<br>
+✔️ Login with JWT in Rails
+<br>
+✔️ Test APIs with Postman
 
 &nbsp;
-## Day 3 - Rails API - OAuth 2.0 - Pt. 1
-- What is OAuth 2.0
-- OAuth 2.0 authentication in Rails API
-- Share what I learned
+# 👀 Upcoming
+## Day 3 - Rails API - OAuth 2.0 - Pt. 2
+- E-mail confirmation
+- Password recovery
