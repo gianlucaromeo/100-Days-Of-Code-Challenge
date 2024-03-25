@@ -28,7 +28,7 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Commit common Ruby features
 
-## [Day 2 - Rails API - OAuth 2.0 - Pt. 1]https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Day%202%20-%20Rails%20API%20and%20OAuth%202.0)
+## [Day 2 - Rails API - OAuth 2.0 - Pt. 1](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Day%202%20-%20Rails%20API%20and%20OAuth%202.0)
 ✔️ What is OAuth 2.0
 <br>
 ✔️ What is Rails API
