@@ -3,7 +3,6 @@ class AuthController < ApplicationController
     rescue_from ActiveRecord::RecordNotFound, with: :handle_record_not_found
 
     def login
-        puts login_params.inspect
         if login_params[:email]
             @user = User.find_by(email: login_params[:email])
         elsif login_params[:username]

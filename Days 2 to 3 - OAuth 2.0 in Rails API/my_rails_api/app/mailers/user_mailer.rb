@@ -30,7 +30,7 @@ class UserMailer < ApplicationMailer
         confirmation_link = url_for(
             controller: 'users',
             action: 'confirm', 
-            token: user.confirmation_token, 
+            token: user.confirmation_token,
             only_path: false,
         )
 
@@ -72,5 +72,25 @@ class UserMailer < ApplicationMailer
             end
         
         puts "Confirmation link: #{confirmation_link}"
+    end
+
+    def password_reset_email(user)
+        password_reset_link = url_for(
+            controller: 'users',
+            action: 'reset_password', 
+            password_reset_token: user.password_reset_token,
+            only_path: false,
+        )
+
+        mail(
+            from: ENV["GMAIL_USERNAME"],
+            to: user.email,
+            subject: 'Password Reset') do |format|
+                format.text { 
+                    render plain: "Hello, #{user.username}!\nClick the link below to reset your password:\n#{password_reset_link}"
+                }
+            end
+        
+        puts "Password reset link: #{password_reset_link}"
     end
 end

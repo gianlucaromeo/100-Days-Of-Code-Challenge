@@ -5,8 +5,15 @@ class User < ApplicationRecord
 
     before_create :generate_confirmation_token
 
-    def generate_confirmation_token
+    def generate_password_token!
         # Generate a random URL-safe base64 string
+        self.password_reset_token = SecureRandom.urlsafe_base64.to_s
+        # Set the password_reset_sent_at timestamp to the current time
+        self.password_reset_sent_at = Time.now
+        save!
+    end
+
+    def generate_confirmation_token
         self.confirmation_token = SecureRandom.urlsafe_base64.to_s
     end
 
