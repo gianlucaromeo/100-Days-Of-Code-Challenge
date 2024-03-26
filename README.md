@@ -33,16 +33,22 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ What is Rails API
 <br>
-✔️ Useful commands to build APIs in Rails
+✔️ SignUp, Login, Profile in Rails API
 <br>
-✔️ Registration 
+✔️ Tested JWT authentication with Postman
 <br>
-✔️ Login with JWT in Rails
+✔️ Useful commands in Rails
+
+## [Day 3 - Rails API - OAuth 2.0 - Pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+✔️ E-mail confirmation
 <br>
-✔️ Test APIs with Postman
+✔️ Password recovery
+<br>
+✔️ Automate some task with Rake
 
 &nbsp;
 # 👀 Upcoming
-## Day 3 - Rails API - OAuth 2.0 - Pt. 2
-- E-mail confirmation
-- Password recovery
+## Day 4 - Rails API - Refactor
+- Refactor code
+- Add test
+- Find faster way to test APIs with Postman (like storing the token in a global variable)

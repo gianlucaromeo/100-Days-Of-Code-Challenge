@@ -11,11 +11,11 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 <br>
 
 ## Day 3
-✔️ Tasks with rake
+✔️ E-mail confirmation
 <br>
-✔️ Email confirmation
+✔️ Password recovery
 <br>
-Password recovery
+✔️ Automate some task with Rake
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
