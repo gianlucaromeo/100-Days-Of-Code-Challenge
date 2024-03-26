@@ -1,14 +1,21 @@
-# Day 2 - Rails API and OAuth 2.0
+# Days 2 to 3 - Rails API and OAuth 2.0
 
 Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)!
 
+## Day 2
 ✔️ Created Rails API project
 <br>
-✔️ Implemented OAuth 2.0
+✔️ SignUp, Login, Profile
 <br>
-✔️ Tested JWT authentication with Postman (SignUp, Login (e-mail), Login (username), Profile)
+✔️ Tested JWT authentication with Postman
 <br>
 
+## Day 3
+✔️ Tasks with rake
+<br>
+✔️ Email confirmation
+<br>
+Password recovery
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
@@ -70,3 +77,4 @@ Rails API is a subset of a regular Rails application, to create an API-only appl
 - `rails serializer User`: Create a UserSerializer
 - `rails server`: Start a server
 - `rails generate migration AddEmailToUsers email:string`: Add fields to a model
+- `rake db:delete_users`: Run the "delete_users" taks with rake in `lib/tasks/delete_users.rake`

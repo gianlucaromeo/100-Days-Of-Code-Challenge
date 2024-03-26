@@ -65,6 +65,22 @@ Rails.application.configure do
   # config.active_job.queue_name_prefix = "my_rails_api_production"
 
   config.action_mailer.perform_caching = false
+  
+  # Add these
+  config.action_mailer.delivery_method = :smtp  # Use SMTP to send emails
+  config.action_mailer.smtp_settings = {
+    address: "smtp.gmail.com",  # Use the Gmail SMTP server
+    port: 587,
+    domain: "gmail.com",
+    user_name: ENV["GMAIL_USERNAME"],  # Use the GMAIL_USERNAME environment variable from the .env file thanks to the dotenv gem
+    password: ENV["GMAIL_PASSWORD"],  #  Use the GMAIL_PASSWORD environment variable from the .env file thanks to the dotenv gem
+    authentication: "plain",  # Use the plain authentication method, which is the default for Gmail SMTP servers
+    enable_starttls_auto: true  # Enable TLS for security
+  }
+  config.action_mailer.default_url_options = { 
+    host: "localhost",
+    port: 3000,
+  }  # Set the default URL options for the mailer
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
