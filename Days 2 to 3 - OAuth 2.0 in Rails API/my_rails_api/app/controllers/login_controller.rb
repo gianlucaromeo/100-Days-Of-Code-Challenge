@@ -1,17 +1,20 @@
-class AuthController < ApplicationController
+class LoginController < ApplicationController
     skip_before_action :check_token_authorization, only: [:login]
     rescue_from ActiveRecord::RecordNotFound, with: :handle_record_not_found
 
     def login
+        puts params.inspect
+        
         if login_params[:email]
-            @user = User.find_by(email: login_params[:email])
+            @user = User.find_by!(email: login_params[:email])
         elsif login_params[:username]
-            @user = User.find_by(username: login_params[:username])
+            @user = User.find_by!(username: login_params[:username])
         end
 
-        puts @user
-        if @user&.authenticate(login_params[:password])
-            token = encode_token(user_id: @user.id)
+        # "authenticate" is a method provided by has_secure_password
+        # that checks if the password provided is correct. It does that by hashing the password.
+        if @user&.authenticate(login_params[:password])  # "&." prevents a NoMethodError if @user is nil.
+            token = get_encoded_token(user_id: @user.id)
             render json: { 
                 user: UserSerializer.new(@user),
                 token: token
@@ -24,15 +27,14 @@ class AuthController < ApplicationController
     end
 
     private
-
+    
     def login_params
         params.permit(:email, :username, :password)
     end
-
+    
     def handle_record_not_found
         render json: {
             error: "Invalid username or password"
         }, status: :unauthorized
     end
-
 end

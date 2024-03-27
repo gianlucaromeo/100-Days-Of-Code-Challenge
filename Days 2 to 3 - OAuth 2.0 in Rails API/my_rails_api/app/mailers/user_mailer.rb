@@ -28,8 +28,8 @@ class UserMailer < ApplicationMailer
         #
         # The list can be found at: https://api.rubyonrails.org/v6.1.3.1/classes/ActionDispatch/Routing/UrlFor.html#method-i-url_for
         confirmation_link = url_for(
-            controller: 'users',
-            action: 'confirm', 
+            controller: 'registration',
+            action: 'confirm_email', 
             token: user.confirmation_token,
             only_path: false,
         )
@@ -76,7 +76,7 @@ class UserMailer < ApplicationMailer
 
     def password_reset_email(user)
         password_reset_link = url_for(
-            controller: 'users',
+            controller: 'password',
             action: 'reset_password', 
             password_reset_token: user.password_reset_token,
             only_path: false,

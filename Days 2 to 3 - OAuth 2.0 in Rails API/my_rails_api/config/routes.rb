@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
-  # Users
-  post "/register", to: "users#create"
-  get "/me", to: "users#me"
-  get "/confirm", to: "users#confirm"
-  post "/passwordForgotten", to: "users#password_forgotten"
-  post "/resetPassword", to: "users#reset_password"
+  # Login
+  post "/auth/login", to: "login#login"
+  
+  # Registration
+  post "/register", to: "registration#create"
+  get "/confirmEmail", to: "registration#confirm_email"
 
-  # Auth
-  post "/auth/login", to: "auth#login"
+  # Password
+  post "/passwordForgotten", to: "password#password_forgotten"
+  post "/resetPassword", to: "password#reset_password"
+
+  # User
+  get "/me", to: "users#me"
 end

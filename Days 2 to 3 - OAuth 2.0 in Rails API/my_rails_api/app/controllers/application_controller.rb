@@ -3,13 +3,13 @@ class ApplicationController < ActionController::API
 
     before_action :check_token_authorization
 
-    def encode_token(payload)
+    def get_encoded_token(payload)
         expiration = 24.hours.from_now
         payload[:exp] = expiration.to_i
         JWT.encode(payload, 'my_secret_key')
     end
 
-    def decoded_token
+    def get_decoded_token
         authorization_header = request.headers['Authorization']
         if authorization_header
             token = authorization_header.split(' ')[1]
@@ -25,15 +25,20 @@ class ApplicationController < ActionController::API
     end
 
     def current_user
+        decoded_token = get_decoded_token
         if decoded_token
             user_id = decoded_token[0]['user_id']
-            @user = User.find_by(id: user_id)
+            begin
+                @user = User.find_by!(id: user_id)  # "find_by!" raises an exception if the record is not found
+            rescue ActiveRecord::RecordNotFound
+                render json: { error: 'User not found' }, status: :not_found
+            end
         end
     end
 
     def check_token_authorization
-        unless !!current_user
-            render json: { errors: 'Please log in' }, status: :unauthorized
+        unless !!current_user  # !! converts the value to a boolean
+            render json: { error: 'Please log in' }, status: :unauthorized
         end
     end
 end
