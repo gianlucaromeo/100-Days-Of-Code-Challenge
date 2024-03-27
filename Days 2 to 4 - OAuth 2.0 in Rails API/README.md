@@ -17,6 +17,11 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 <br>
 ✔️ Automate some task with Rake
 
+## Day 4
+✔️ Refactored controllers
+<br>
+✔️ Started testing controllers
+
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
 - [Official Rails API guide](https://guides.rubyonrails.org/api_app.html)

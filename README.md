@@ -46,9 +46,11 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Automate some task with Rake
 
+## [Day 4 - Rails API - Refactor and tests](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+✔️ Refactored controllers
+✔️ Started testing controllers
+
 &nbsp;
 # 👀 Upcoming
-## Day 4 - Rails API - Refactor
-- Refactor code
-- Add test
-- Find faster way to test APIs with Postman (like storing the token in a global variable)
+## Day 5 - TBD
+- TBD
