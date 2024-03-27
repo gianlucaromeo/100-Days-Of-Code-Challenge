@@ -20,7 +20,7 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ## Day 4
 ✔️ Refactored controllers
 <br>
-✔️ Started testing controllers
+✔️ Tested registration controller
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
