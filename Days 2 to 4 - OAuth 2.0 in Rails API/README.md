@@ -83,3 +83,4 @@ Rails API is a subset of a regular Rails application, to create an API-only appl
 - `rails server`: Start a server
 - `rails generate migration AddEmailToUsers email:string`: Add fields to a model
 - `rake db:delete_users`: Run the "delete_users" taks with rake in `lib/tasks/delete_users.rake`
+- `rails test`: Run tests
