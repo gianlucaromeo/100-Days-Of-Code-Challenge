@@ -1,10 +1,10 @@
 Rails.application.routes.draw do
-  # Login
-  post "/auth/login", to: "login#login"
-  
   # Registration
   post "/register", to: "registration#create"
   get "/confirmEmail", to: "registration#confirm_email"
+  
+  # Login
+  post "/auth/login", to: "login#login"
 
   # Password
   post "/passwordForgotten", to: "password#password_forgotten"

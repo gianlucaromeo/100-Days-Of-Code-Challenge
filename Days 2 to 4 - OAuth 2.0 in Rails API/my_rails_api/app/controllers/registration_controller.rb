@@ -3,6 +3,21 @@ class RegistrationController < ApplicationController
     rescue_from ActiveRecord::RecordInvalid, with: :handle_invalid_record
 
     def create
+        if !registration_params[:password]
+            render json: {
+                error: "Password is required"
+            }, status: :unprocessable_entity
+            return
+        end
+
+        # assert that both email and username are given
+        if !registration_params[:email] || !registration_params[:username]
+            render json: {
+                error: "Email and username are required"
+            }, status: :unprocessable_entity  # 422
+            return
+        end
+
         user = User.create!(registration_params)
         token = get_encoded_token(user_id: user.id)
         
@@ -33,6 +48,7 @@ class RegistrationController < ApplicationController
     private
 
     def registration_params
+        # To force some parameters to be present, we can use the require method
         params.permit(:username, :email, :password, :bio)
     end
 
