@@ -4,9 +4,9 @@ class ApplicationController < ActionController::API
     before_action :check_token_authorization
 
     def get_encoded_token(payload)
-        expiration = 24.hours.from_now
-        payload[:exp] = expiration.to_i
-        JWT.encode(payload, 'my_secret_key')
+        expiration = 15.days.from_now
+        payload[:expiration] = expiration
+        return JWT.encode(payload, 'my_secret_key'), expiration
     end
 
     def get_decoded_token
@@ -29,7 +29,13 @@ class ApplicationController < ActionController::API
         if decoded_token
             user_id = decoded_token[0]['user_id']
             begin
-                @user = User.find_by!(id: user_id)  # "find_by!" raises an exception if the record is not found
+                @user = User.find_by!(id: user_id)
+                token_expiration = @user.token_expiration
+                if token_expiration < Time.now
+                    render json: { error: 'Token expired' }, status: :unauthorized
+                else
+                    return @user
+                end
             rescue ActiveRecord::RecordNotFound
                 render json: { error: 'User not found' }, status: :not_found
             end
