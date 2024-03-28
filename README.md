@@ -51,7 +51,7 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Tested registration controller
 
-## Day 5 - Rails API - Testing pt. 2 
+## [Day 5 - Rails API - Testing pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API) 
 ✔️ Tested login controller
 <br>
 ✔️ Tested password controller
