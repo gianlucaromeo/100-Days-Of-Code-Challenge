@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get "/confirmEmail", to: "registration#confirm_email"
   
   # Login
-  post "/auth/login", to: "login#login"
+  post "/login", to: "login#login"
 
   # Password
   post "/passwordForgotten", to: "password#password_forgotten"
