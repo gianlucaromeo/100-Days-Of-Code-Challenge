@@ -6,7 +6,7 @@ class RegistrationController < ApplicationController
         if !registration_params[:password]
             render json: {
                 error: "Password is required"
-            }, status: :unprocessable_entity
+            }, status: :unprocessable_entity  # 422
             return
         end
 
@@ -24,7 +24,7 @@ class RegistrationController < ApplicationController
         render json: { 
             user: UserSerializer.new(user),
             token: token
-        }, status: :created
+        }, status: :created  # 201
 
         UserMailer.confirmation_email(user).deliver_now!
     end
