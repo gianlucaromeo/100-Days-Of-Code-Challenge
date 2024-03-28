@@ -1,4 +1,4 @@
-# Days 2 to 3 - OAuth 2.0 in Rails API
+# Days 2 to 5 - OAuth 2.0 in Rails API
 
 Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)!
 
