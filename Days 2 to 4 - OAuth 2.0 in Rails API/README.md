@@ -22,6 +22,13 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 <br>
 ✔️ Tested registration controller
 
+## Day 5
+✔️ Tested login controller
+<br>
+✔️ Tested password controller
+<br>
+✔️ Started testing users controller
+
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
 - [Official Rails API guide](https://guides.rubyonrails.org/api_app.html)

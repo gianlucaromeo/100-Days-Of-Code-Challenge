@@ -51,7 +51,15 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Tested registration controller
 
+## Day 5 - Rails API - Testing pt. 2 
+✔️ Tested login controller
+<br>
+✔️ Tested password controller
+<br>
+✔️ Started testing users controller
+
 &nbsp;
 # 👀 Upcoming
-## Day 5 - Rails API - Testing pt. 2 
-- Finish testing controllers
+## Day 6 - Rails API - Refresh token 
+- Add refresh token mechanism
+- Finish testing user controller
