@@ -58,8 +58,12 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Started testing users controller
 
+## [Day 6 - Rails API - Refresh token](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+✔️ Added refreshToken
+<br>
+✔️ Completed testing controllers
+
 &nbsp;
 # 👀 Upcoming
-## Day 6 - Rails API - Refresh token 
-- Add refresh token mechanism
-- Finish testing user controller
+## Day 7 - TBD 
+- TBD
