@@ -1,4 +1,4 @@
-# Days 2 to 5 - OAuth 2.0 in Rails API
+# Days 2 to 6 - OAuth 2.0 in Rails API
 
 Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)!
 
@@ -28,6 +28,11 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ✔️ Tested password controller
 <br>
 ✔️ Started testing users controller
+
+## Day 6
+✔️ Added refreshToken
+<br>
+✔️ Completed testing controllers
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
