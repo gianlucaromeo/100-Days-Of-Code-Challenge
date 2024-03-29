@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  # Application
+  get "/refreshToken", to: "application#refresh_token"
+  
   # Registration
   post "/register", to: "registration#create"
   get "/confirmEmail", to: "registration#confirm_email"

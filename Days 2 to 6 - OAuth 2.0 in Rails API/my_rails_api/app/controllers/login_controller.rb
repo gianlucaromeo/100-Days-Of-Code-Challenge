@@ -24,11 +24,7 @@ class LoginController < ApplicationController
         # "authenticate" is a method provided by has_secure_password
         # that checks if the password provided is correct. It does that by hashing the password.
         if @user.authenticate(login_params[:password])  # "&." prevents a NoMethodError if @user is nil.
-            token, expiration = get_encoded_token(user_id: @user.id)
-            @user.update!(
-                confirmation_token: token, 
-                token_expiration: expiration
-            )
+            token, exp = get_encoded_token(user_id: @user.id)
             render json: { 
                 user: UserSerializer.new(@user),
                 token: token
