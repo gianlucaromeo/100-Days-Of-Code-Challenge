@@ -64,9 +64,9 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 ✔️ Completed testing controllers
 
 ## Day 7 - Rails API - Deploy to Render
-✔️ Started laerning how to deploy a Rails APIs app to Render.
+✔️ Deployed to Render!!!!
 
 &nbsp;
 # 👀 Upcoming
-## Day 7 - Rails API - Finish and test deployed services 
+## Day 7 - Rails API - Make Flutter app to test deployed services 
 - TBD
