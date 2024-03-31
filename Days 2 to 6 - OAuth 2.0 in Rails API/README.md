@@ -35,7 +35,7 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ✔️ Completed testing controllers
 
 ## Day 7
-Started learning how to deploy a Rails APIs app to Render. After a few hours, I still get error messages.
+✔️ Deployed to Render!!!!
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
