@@ -28,7 +28,7 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Commit common Ruby features
 
-## [Day 2 - Rails API - OAuth 2.0 - Pt. 1](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Day%202%20-%20Rails%20API%20and%20OAuth%202.0)
+## [Day 2 - Rails API - OAuth 2.0 - Pt. 1](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%206%20-%20OAuth%202.0%20in%20Rails%20API)
 ✔️ What is OAuth 2.0
 <br>
 ✔️ What is Rails API
@@ -39,26 +39,26 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Useful commands in Rails
 
-## [Day 3 - Rails API - OAuth 2.0 - Pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+## [Day 3 - Rails API - OAuth 2.0 - Pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%206%20-%20OAuth%202.0%20in%20Rails%20API)
 ✔️ E-mail confirmation
 <br>
 ✔️ Password recovery
 <br>
 ✔️ Automate some task with Rake
 
-## [Day 4 - Rails API - Refactor and Testing](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+## [Day 4 - Rails API - Refactor and Testing](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%206%20-%20OAuth%202.0%20in%20Rails%20API)
 ✔️ Refactored controllers
 <br>
 ✔️ Tested registration controller
 
-## [Day 5 - Rails API - Testing pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API) 
+## [Day 5 - Rails API - Testing pt. 2](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%206%20-%20OAuth%202.0%20in%20Rails%20API) 
 ✔️ Tested login controller
 <br>
 ✔️ Tested password controller
 <br>
 ✔️ Started testing users controller
 
-## [Day 6 - Rails API - Refresh token](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%203%20-%20OAuth%202.0%20in%20Rails%20API)
+## [Day 6 - Rails API - Refresh token](https://github.com/gianlucaromeo/100-Days-Of-Code-Challenge/tree/main/Days%202%20to%206%20-%20OAuth%202.0%20in%20Rails%20API)
 ✔️ Added refreshToken
 <br>
 ✔️ Completed testing controllers
