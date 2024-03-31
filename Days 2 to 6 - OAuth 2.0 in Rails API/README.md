@@ -1,4 +1,4 @@
-# Days 2 to 6 - OAuth 2.0 in Rails API
+# Days 2 to (Present) - Backend in Rails API
 
 Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread account](https://www.threads.net/__gianluc4)!
 
@@ -33,6 +33,9 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ✔️ Added refreshToken
 <br>
 ✔️ Completed testing controllers
+
+## Day 7
+Started learning how to deploy a Rails APIs app to Render. After a few hours, I still get error messages.
 
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
