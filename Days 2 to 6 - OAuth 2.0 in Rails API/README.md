@@ -37,6 +37,15 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ## Day 7
 ✔️ Deployed to Render!!!!
 
+## [Day 8 - Rails API - Render, Databases, and Fix](https://github.com/gianlucaromeo/rails-api-backend)
+✔️ Explored Render
+<br>
+✔️ Switched from sqlite3 to Postgres
+<br>
+✔️ Connected production DB with DataGrip
+<br>
+✔️ Added check email confirmed before every action
+
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
 - [Official Rails API guide](https://guides.rubyonrails.org/api_app.html)
