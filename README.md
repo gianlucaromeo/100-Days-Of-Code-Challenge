@@ -63,10 +63,19 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Completed testing controllers
 
-## Day 7 - Rails API - Deploy to Render
+## [Day 7 - Rails API - Deploy to Render](https://github.com/gianlucaromeo/rails-api-backend)
 ✔️ Deployed to Render!!!!
+
+## [Day 8 - Rails API - Render, Databases, and Fix](https://github.com/gianlucaromeo/rails-api-backend)
+✔️ Explored Render
+<br>
+✔️ Switched from sqlite3 to Postgres
+<br>
+✔️ Connected production DB with DataGrip
+<br>
+✔️ Added check email confirmed before every action
 
 &nbsp;
 # 👀 Upcoming
-## Day 7 - Rails API - Make Flutter app to test deployed services 
+## Day 8 - Rails API - Test production services 
 - TBD
