@@ -46,6 +46,9 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 <br>
 ✔️ Added check email confirmed before every action
 
+## Day 9 - Rails API - /deleteUser
+✔️ Started implementing and testing the /deleteUser service
+
 # Useful resources
 - [What is OAuth 2.0](https://auth0.com/intro-to-iam/what-is-oauth-2)
 - [Official Rails API guide](https://guides.rubyonrails.org/api_app.html)
