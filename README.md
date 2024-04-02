@@ -75,7 +75,10 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 <br>
 ✔️ Added check email confirmed before every action
 
+## Day 9 - Rails API - /deleteUser
+✔️ Started implementing and testing the /deleteUser service
+
 &nbsp;
 # 👀 Upcoming
-## Day 8 - Rails API - Test production services 
+## Day 10 - TBD 
 - TBD
