@@ -37,7 +37,7 @@ Read more on [my X account](https://twitter.com/__gianluc4) and [my Thread accou
 ## Day 7
 ✔️ Deployed to Render!!!!
 
-## [Day 8 - Rails API - Render, Databases, and Fix](https://github.com/gianlucaromeo/rails-api-backend)
+## Day 8 - Rails API - Render, Databases, and Fix
 ✔️ Explored Render
 <br>
 ✔️ Switched from sqlite3 to Postgres
