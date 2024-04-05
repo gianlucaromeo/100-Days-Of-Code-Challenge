@@ -78,7 +78,12 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 ## Day 9 - Rails API - /deleteUser
 ✔️ Started implementing and testing the /deleteUser service
 
+## Day 10 - Lectura - BLoC
+✔️ Migrated my old project Lectura from Riverpod to BLoC
+<br>
+✔️ Added first BLoC
+
 &nbsp;
 # 👀 Upcoming
-## Day 10 - TBD 
+## Day 11 - TBD 
 - TBD
