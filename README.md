@@ -78,12 +78,12 @@ I am coding at least 1 hour a day, for 100 days, and sharing my journey on GitHu
 ## Day 9 - Rails API - /deleteUser
 ✔️ Started implementing and testing the /deleteUser service
 
-## [Days 10 to Present - Lectura - BLoC - Flutter](https://github.com/gianlucaromeo/lectura)
+## [Days 10 to 15 (Present) - Lectura - BLoC - Flutter](https://github.com/gianlucaromeo/lectura)
 ✔️ Migrated my old project Lectura from Riverpod to BLoC
 <br>
 ✔️ Added Theme, Registration, and Login BLoCs
 <br>
-✔️ Tested navigation to homepage after login
+✔️ Implemented: login with email and password, email confirmation, login, logout
 
 &nbsp;
 # 👀 Upcoming
